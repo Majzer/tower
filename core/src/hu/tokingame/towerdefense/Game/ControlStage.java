@@ -90,7 +90,7 @@ public class ControlStage extends MyStage {
 
     public void setHealthLabel(int healthleft){
         healthLabel.setText(healthleft+"");
-        healthLabel.addAction(Actions.sequence(Actions.alpha(0), Actions.fadeIn(0.5f), Actions.delay(2), Actions.fadeOut(0.5f), Actions.alpha(0)));
+        //healthLabel.addAction(Actions.sequence(Actions.alpha(0), Actions.fadeIn(0.5f), Actions.delay(2), Actions.fadeOut(0.5f), Actions.alpha(0)));
     }
 
     @Override
